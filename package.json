@@ -1,0 +1,22 @@
+{
+  "name": "serverless-graphql-kit",
+  "version": "1.0.0",
+  "description": "Starter kit for quickly bootstrapping a serverless API on Netlify using Prisma for any persistent backend needs",
+  "main": "handler.js",
+  "keywords": [],
+  "license": "MIT",
+  "scripts": {
+    "serve": "netlify-lambda serve server",
+    "build": "netlify-lambda build server"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^0.4.0"
+  },
+  "dependencies": {
+    "apollo-server-lambda": "^2.3.1",
+    "dotenv": "^6.2.0",
+    "graphql": "^14.0.2",
+    "graphql-import": "^0.7.1",
+    "prisma-binding": "^2.2.13"
+  }
+}
