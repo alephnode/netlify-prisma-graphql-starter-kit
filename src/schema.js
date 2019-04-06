@@ -24,7 +24,6 @@ module.exports = `
     id: ID!
     name: String!
     track_no: Int
-    artists: [Artist]
   }
 
   type Category {
