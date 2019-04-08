@@ -8,6 +8,10 @@ module.exports = `
     categories: [Category]
   }
 
+  type Mutation {
+    deleteRecord(id: String!): Record!
+  }
+
   type Artist {
     id: ID!
     name: String!
@@ -31,4 +35,15 @@ module.exports = `
     name: String!
     description: String
   }
+
+  input RecordInput {
+    name: String!
+    tracks: [TrackInput]
+  }
+
+  input TrackInput {
+    name: String!
+    track_no: Int
+  }
+
 `

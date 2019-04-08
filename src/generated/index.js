@@ -9,15 +9,15 @@ var models = [
     embedded: false
   },
   {
-    name: "Category",
-    embedded: false
-  },
-  {
     name: "Record",
     embedded: false
   },
   {
     name: "Track",
+    embedded: false
+  },
+  {
+    name: "Category",
     embedded: false
   }
 ];
