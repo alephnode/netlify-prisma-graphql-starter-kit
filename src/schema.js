@@ -9,6 +9,10 @@ module.exports = `
   }
 
   type Mutation {
+    addRecord(
+      name: String!
+      records: RecordInput!
+    ): Record!
     deleteRecord(id: String!): Record!
   }
 
